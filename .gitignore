@@ -1,6 +1,7 @@
 .claude/
 .netlify/
 dist/
+*.zip
 
 # Keep the repository deployable on GitHub by committing only assets used by the site.
 img thi cong/*
