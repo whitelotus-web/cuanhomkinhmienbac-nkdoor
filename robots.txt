@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nhomkinhcaocap.netlify.app/sitemap.xml

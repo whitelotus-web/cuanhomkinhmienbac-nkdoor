@@ -1,0 +1,24 @@
+.claude/
+.netlify/
+dist/
+
+# Keep the repository deployable on GitHub by committing only assets used by the site.
+img thi cong/*
+!img thi cong/IMG_1774397594460_1774416357947_1.jpg
+!img thi cong/IMG_1774397594591_1774416358744_1.jpg
+!img thi cong/IMG_1774397596270_1774416369944_1.jpg
+!img thi cong/IMG_1774397595027_1774416363013_1.jpg
+!img thi cong/IMG20260530120107_1.jpg
+!img thi cong/2026-05-29 14.03.41_175422, Đường Lạc Long Quân_1.jpg
+!img thi cong/IMG20260609183225_1.jpg
+!img thi cong/IMG_1777993051949_1778045080357_1.jpg
+!img thi cong/IMG_20260505_154056_1.jpg
+!img thi cong/2026-05-29 14.46.24_175422, Đường Lạc Long Quân_1.jpg
+!img thi cong/IMG20260521103129_1.jpg
+!img thi cong/IMG_1774397594776_1774416360814_1.jpg
+!img thi cong/IMG_1774397595322_1774416365439_1.jpg
+!img thi cong/IMG20260529164246_1.jpg
+!img thi cong/IMG20260303105756_1.jpg
+!img thi cong/VID20260521150938_1.mp4
+!img thi cong/VID20260521103432_1.mp4
+!img thi cong/VID20260526150814_1.mp4
