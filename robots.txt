@@ -1,4 +1,4 @@
-User-agent: *
+﻿User-agent: *
 Allow: /
 
-Sitemap: https://nhomkinhcaocap.netlify.app/sitemap.xml
+Sitemap: https://cuanhomkinhmienbac.netlify.app/sitemap.xml
