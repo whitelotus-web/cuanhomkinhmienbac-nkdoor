@@ -1355,6 +1355,39 @@ input, textarea, select {
   color: var(--color-gold);
 }
 
+.seo-card-link {
+  display: block;
+  height: 100%;
+}
+
+.seo-card-link:hover {
+  transform: translateY(-4px);
+  border-color: rgba(212, 168, 83, 0.35);
+  box-shadow: var(--shadow-gold);
+}
+
+.seo-pill-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  margin-top: var(--space-lg);
+}
+
+.seo-pill-links a {
+  color: var(--color-gold);
+  border: 1px solid rgba(212, 168, 83, 0.22);
+  background: rgba(212, 168, 83, 0.08);
+  border-radius: var(--radius-xl);
+  padding: 8px 14px;
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+
+.seo-pill-links a:hover {
+  background: rgba(212, 168, 83, 0.16);
+  border-color: rgba(212, 168, 83, 0.42);
+}
+
 .seo-copy {
   max-width: 850px;
 }
