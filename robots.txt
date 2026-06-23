@@ -1,4 +1,4 @@
 ﻿User-agent: *
 Allow: /
 
-Sitemap: https://cuanhomkinhmienbac.netlify.app/sitemap.xml
+Sitemap: https://cua-nhom-kinh-mien-bac.netlify.app/sitemap.xml
