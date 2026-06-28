@@ -1,5 +1,6 @@
 https://cua-nhom-kinh-mien-bac.netlify.app/
 https://cua-nhom-kinh-mien-bac.netlify.app/bao-gia-cua-cuon.html
+https://cua-nhom-kinh-mien-bac.netlify.app/bao-gia-cua-luoi-chong-muoi.html
 https://cua-nhom-kinh-mien-bac.netlify.app/bao-gia-cua-nhom-kinh.html
 https://cua-nhom-kinh-mien-bac.netlify.app/bao-gia-cua-nhom-xingfa.html
 https://cua-nhom-kinh-mien-bac.netlify.app/bao-gia-cua-thep.html
@@ -11,13 +12,16 @@ https://cua-nhom-kinh-mien-bac.netlify.app/cau-thang-kinh.html
 https://cua-nhom-kinh-mien-bac.netlify.app/checklist-khao-sat-cua-nhom-kinh.html
 https://cua-nhom-kinh-mien-bac.netlify.app/chong-tham-cua-nhom-kinh-ban-cong.html
 https://cua-nhom-kinh-mien-bac.netlify.app/cua-cuon.html
+https://cua-nhom-kinh-mien-bac.netlify.app/cua-di-nhom-kinh-4-canh.html
 https://cua-nhom-kinh-mien-bac.netlify.app/cua-kinh-cuong-luc.html
+https://cua-nhom-kinh-mien-bac.netlify.app/cua-lua-nhom-kinh.html
 https://cua-nhom-kinh-mien-bac.netlify.app/cua-luoi-chong-muoi.html
 https://cua-nhom-kinh-mien-bac.netlify.app/cua-nhom-kinh-ban-cong.html
 https://cua-nhom-kinh-mien-bac.netlify.app/cua-nhom-kinh-cach-am.html
 https://cua-nhom-kinh-mien-bac.netlify.app/cua-nhom-kinh-chung-cu.html
 https://cua-nhom-kinh-mien-bac.netlify.app/cua-nhom-kinh.html
 https://cua-nhom-kinh-mien-bac.netlify.app/cua-nhom-xingfa-ha-noi.html
+https://cua-nhom-kinh-mien-bac.netlify.app/cua-so-nhom-kinh.html
 https://cua-nhom-kinh-mien-bac.netlify.app/cua-thep-cao-cap.html
 https://cua-nhom-kinh-mien-bac.netlify.app/cua-thep-van-go-chung-cu.html
 https://cua-nhom-kinh-mien-bac.netlify.app/cua-thep-van-go-ha-noi.html
@@ -31,6 +35,8 @@ https://cua-nhom-kinh-mien-bac.netlify.app/site-map.html
 https://cua-nhom-kinh-mien-bac.netlify.app/so-sanh-cua-thep-va-cua-go.html
 https://cua-nhom-kinh-mien-bac.netlify.app/sua-chua-cua-nhom-kinh.html
 https://cua-nhom-kinh-mien-bac.netlify.app/sua-cua-cuon-ha-noi.html
+https://cua-nhom-kinh-mien-bac.netlify.app/sua-khoa-cua-nhom-kinh.html
+https://cua-nhom-kinh-mien-bac.netlify.app/thay-kinh-cuong-luc-vo.html
 https://cua-nhom-kinh-mien-bac.netlify.app/thi-cong-cua-thep-ha-noi.html
 https://cua-nhom-kinh-mien-bac.netlify.app/thi-cong-kinh-cuong-luc-ha-noi.html
 https://cua-nhom-kinh-mien-bac.netlify.app/thi-cong-nhom-kinh-bac-ninh.html
