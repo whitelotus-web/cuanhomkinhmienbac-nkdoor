@@ -49,6 +49,12 @@
     <priority>0.85</priority>
   </url>
   <url>
+    <loc>https://cua-nhom-kinh-mien-bac.netlify.app/cau-hoi-thuong-gap-cua-nhom-kinh.html</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
     <loc>https://cua-nhom-kinh-mien-bac.netlify.app/cau-thang-kinh.html</loc>
     <lastmod>2026-06-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -58,6 +64,12 @@
     <loc>https://cua-nhom-kinh-mien-bac.netlify.app/checklist-khao-sat-cua-nhom-kinh.html</loc>
     <lastmod>2026-06-28</lastmod>
     <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://cua-nhom-kinh-mien-bac.netlify.app/chong-tham-cua-nhom-kinh-ban-cong.html</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
@@ -80,6 +92,12 @@
   </url>
   <url>
     <loc>https://cua-nhom-kinh-mien-bac.netlify.app/cua-nhom-kinh-ban-cong.html</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://cua-nhom-kinh-mien-bac.netlify.app/cua-nhom-kinh-cach-am.html</loc>
     <lastmod>2026-06-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
@@ -140,6 +158,12 @@
   </url>
   <url>
     <loc>https://cua-nhom-kinh-mien-bac.netlify.app/mai-kinh-cuong-luc.html</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://cua-nhom-kinh-mien-bac.netlify.app/phu-kien-cua-nhom-kinh.html</loc>
     <lastmod>2026-06-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>

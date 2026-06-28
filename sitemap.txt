@@ -6,12 +6,15 @@ https://cua-nhom-kinh-mien-bac.netlify.app/bao-gia-cua-thep.html
 https://cua-nhom-kinh-mien-bac.netlify.app/bao-gia-kinh-cuong-luc.html
 https://cua-nhom-kinh-mien-bac.netlify.app/bao-hanh-bao-tri-cua-nhom-kinh.html
 https://cua-nhom-kinh-mien-bac.netlify.app/cabin-tam-kinh.html
+https://cua-nhom-kinh-mien-bac.netlify.app/cau-hoi-thuong-gap-cua-nhom-kinh.html
 https://cua-nhom-kinh-mien-bac.netlify.app/cau-thang-kinh.html
 https://cua-nhom-kinh-mien-bac.netlify.app/checklist-khao-sat-cua-nhom-kinh.html
+https://cua-nhom-kinh-mien-bac.netlify.app/chong-tham-cua-nhom-kinh-ban-cong.html
 https://cua-nhom-kinh-mien-bac.netlify.app/cua-cuon.html
 https://cua-nhom-kinh-mien-bac.netlify.app/cua-kinh-cuong-luc.html
 https://cua-nhom-kinh-mien-bac.netlify.app/cua-luoi-chong-muoi.html
 https://cua-nhom-kinh-mien-bac.netlify.app/cua-nhom-kinh-ban-cong.html
+https://cua-nhom-kinh-mien-bac.netlify.app/cua-nhom-kinh-cach-am.html
 https://cua-nhom-kinh-mien-bac.netlify.app/cua-nhom-kinh-chung-cu.html
 https://cua-nhom-kinh-mien-bac.netlify.app/cua-nhom-kinh.html
 https://cua-nhom-kinh-mien-bac.netlify.app/cua-nhom-xingfa-ha-noi.html
@@ -22,6 +25,7 @@ https://cua-nhom-kinh-mien-bac.netlify.app/kinh-nghiem-chon-cua-nhom-kinh.html
 https://cua-nhom-kinh-mien-bac.netlify.app/lap-dat-cua-cuon-ha-noi.html
 https://cua-nhom-kinh-mien-bac.netlify.app/lap-dat-cua-luoi-chong-muoi-ha-noi.html
 https://cua-nhom-kinh-mien-bac.netlify.app/mai-kinh-cuong-luc.html
+https://cua-nhom-kinh-mien-bac.netlify.app/phu-kien-cua-nhom-kinh.html
 https://cua-nhom-kinh-mien-bac.netlify.app/quy-trinh-thi-cong-cua.html
 https://cua-nhom-kinh-mien-bac.netlify.app/site-map.html
 https://cua-nhom-kinh-mien-bac.netlify.app/so-sanh-cua-thep-va-cua-go.html
