@@ -1,6 +1,7 @@
 User-agent: *
 Allow: /
 
+Sitemap: https://cua-nhom-kinh-mien-bac.netlify.app/sitemap-index.xml
 Sitemap: https://cua-nhom-kinh-mien-bac.netlify.app/sitemap.xml
 Sitemap: https://cua-nhom-kinh-mien-bac.netlify.app/sitemap.txt
 Sitemap: https://cua-nhom-kinh-mien-bac.netlify.app/image-sitemap.xml
