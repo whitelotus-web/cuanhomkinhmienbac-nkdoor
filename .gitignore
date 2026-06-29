@@ -1,5 +1,6 @@
 .claude/
 .netlify/
+.wrangler/
 dist/
 *.zip
 
