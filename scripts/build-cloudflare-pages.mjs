@@ -18,7 +18,13 @@ function copyFileWithRewrite(src, dest) {
   fs.mkdirSync(path.dirname(dest), { recursive: true });
   const ext = path.extname(src).toLowerCase();
   if (textExtensions.has(ext) || path.basename(src) === "robots.txt") {
-    const content = fs.readFileSync(src, "utf8").replaceAll(sourceBase, cloudflareBase);
+    let content = fs.readFileSync(src, "utf8");
+    if (ext === ".html") {
+      content = content.replaceAll(
+        '<meta name="robots" content="index, follow">',
+        '<meta name="robots" content="noindex, nofollow">'
+      );
+    }
     fs.writeFileSync(dest, content, "utf8");
     return;
   }
@@ -56,6 +62,7 @@ function writeCloudflareHeaders() {
   Referrer-Policy: strict-origin-when-cross-origin
   X-Frame-Options: SAMEORIGIN
   Permissions-Policy: camera=(), microphone=(), geolocation=()
+  X-Robots-Tag: noindex, nofollow
 
 /*.html
   Cache-Control: public, max-age=0, must-revalidate
@@ -81,14 +88,24 @@ function writeCloudflareHeaders() {
   fs.writeFileSync(path.join(target, "_headers"), headers, "utf8");
 }
 
+function writeCloudflareRobots() {
+  const robots = `User-agent: *
+Disallow: /
+`;
+  fs.writeFileSync(path.join(target, "robots.txt"), robots, "utf8");
+}
+
 function auditBuild() {
   const sitemap = fs.readFileSync(path.join(target, "sitemap.xml"), "utf8");
   const robots = fs.readFileSync(path.join(target, "robots.txt"), "utf8");
   const index = fs.readFileSync(path.join(target, "index.html"), "utf8");
   const urlCount = (sitemap.match(/<loc>/g) || []).length;
   if (urlCount < 1) throw new Error("Cloudflare build sitemap has no URLs.");
-  if (sitemap.includes(sourceBase) || robots.includes(sourceBase) || index.includes(sourceBase)) {
-    throw new Error("Cloudflare build still contains Netlify base URL in critical files.");
+  if (!sitemap.includes(sourceBase) || index.includes(cloudflareBase)) {
+    throw new Error("Cloudflare mirror should keep Netlify canonical URLs.");
+  }
+  if (!robots.includes("Disallow: /") || !index.includes('content="noindex, nofollow"')) {
+    throw new Error("Cloudflare mirror is missing noindex protection.");
   }
   return urlCount;
 }
@@ -97,5 +114,6 @@ resetDir(target);
 copyRootFiles();
 copyImages();
 writeCloudflareHeaders();
+writeCloudflareRobots();
 const urlCount = auditBuild();
-console.log(`Built ${target} with ${urlCount} sitemap URLs for ${cloudflareBase}`);
+console.log(`Built ${target} as noindex mirror with ${urlCount} Netlify canonical URLs for ${cloudflareBase}`);
