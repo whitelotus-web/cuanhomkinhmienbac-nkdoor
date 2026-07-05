@@ -5,6 +5,7 @@ https://cua-nhom-kinh-mien-bac.netlify.app/bao-gia-cua-nhom-kinh.html
 https://cua-nhom-kinh-mien-bac.netlify.app/bao-gia-cua-nhom-xingfa.html
 https://cua-nhom-kinh-mien-bac.netlify.app/bao-gia-cua-thep.html
 https://cua-nhom-kinh-mien-bac.netlify.app/bao-gia-kinh-cuong-luc.html
+https://cua-nhom-kinh-mien-bac.netlify.app/bao-gia-thi-cong-nhom-kinh-2026.html
 https://cua-nhom-kinh-mien-bac.netlify.app/bao-hanh-bao-tri-cua-nhom-kinh.html
 https://cua-nhom-kinh-mien-bac.netlify.app/cabin-tam-kinh.html
 https://cua-nhom-kinh-mien-bac.netlify.app/cau-hoi-thuong-gap-cua-nhom-kinh.html
@@ -20,14 +21,19 @@ https://cua-nhom-kinh-mien-bac.netlify.app/cua-nhom-kinh-ban-cong.html
 https://cua-nhom-kinh-mien-bac.netlify.app/cua-nhom-kinh-cach-am.html
 https://cua-nhom-kinh-mien-bac.netlify.app/cua-nhom-kinh-chong-on.html
 https://cua-nhom-kinh-mien-bac.netlify.app/cua-nhom-kinh-chung-cu.html
+https://cua-nhom-kinh-mien-bac.netlify.app/cua-nhom-kinh-cua-hang.html
+https://cua-nhom-kinh-mien-bac.netlify.app/cua-nhom-kinh-mat-tien-nha-pho.html
 https://cua-nhom-kinh-mien-bac.netlify.app/cua-nhom-kinh-mat-tien.html
 https://cua-nhom-kinh-mien-bac.netlify.app/cua-nhom-kinh-nha-ve-sinh.html
+https://cua-nhom-kinh-mien-bac.netlify.app/cua-nhom-kinh-phong-khach.html
+https://cua-nhom-kinh-mien-bac.netlify.app/cua-nhom-kinh-phong-ngu.html
 https://cua-nhom-kinh-mien-bac.netlify.app/cua-nhom-kinh.html
 https://cua-nhom-kinh-mien-bac.netlify.app/cua-nhom-xingfa-ha-noi.html
 https://cua-nhom-kinh-mien-bac.netlify.app/cua-so-nhom-kinh.html
 https://cua-nhom-kinh-mien-bac.netlify.app/cua-thep-cao-cap.html
 https://cua-nhom-kinh-mien-bac.netlify.app/cua-thep-van-go-chung-cu.html
 https://cua-nhom-kinh-mien-bac.netlify.app/cua-thep-van-go-ha-noi.html
+https://cua-nhom-kinh-mien-bac.netlify.app/du-an-thi-cong-nhom-kinh.html
 https://cua-nhom-kinh-mien-bac.netlify.app/kich-thuoc-cua-nhom-kinh.html
 https://cua-nhom-kinh-mien-bac.netlify.app/kinh-an-toan-hai-lop.html
 https://cua-nhom-kinh-mien-bac.netlify.app/kinh-hop-cach-am-cach-nhiet.html
