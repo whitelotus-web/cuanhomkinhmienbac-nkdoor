@@ -11,6 +11,7 @@ https://cua-nhom-kinh-mien-bac.netlify.app/cabin-tam-kinh.html
 https://cua-nhom-kinh-mien-bac.netlify.app/cau-hoi-thuong-gap-cua-nhom-kinh.html
 https://cua-nhom-kinh-mien-bac.netlify.app/cau-thang-kinh.html
 https://cua-nhom-kinh-mien-bac.netlify.app/checklist-khao-sat-cua-nhom-kinh.html
+https://cua-nhom-kinh-mien-bac.netlify.app/chinh-sach-bao-hanh-cua-nhom-kinh.html
 https://cua-nhom-kinh-mien-bac.netlify.app/chong-tham-cua-nhom-kinh-ban-cong.html
 https://cua-nhom-kinh-mien-bac.netlify.app/cua-cuon.html
 https://cua-nhom-kinh-mien-bac.netlify.app/cua-di-nhom-kinh-4-canh.html
@@ -34,12 +35,15 @@ https://cua-nhom-kinh-mien-bac.netlify.app/cua-thep-cao-cap.html
 https://cua-nhom-kinh-mien-bac.netlify.app/cua-thep-van-go-chung-cu.html
 https://cua-nhom-kinh-mien-bac.netlify.app/cua-thep-van-go-ha-noi.html
 https://cua-nhom-kinh-mien-bac.netlify.app/du-an-thi-cong-nhom-kinh.html
+https://cua-nhom-kinh-mien-bac.netlify.app/gioi-thieu-nk-door.html
+https://cua-nhom-kinh-mien-bac.netlify.app/huong-dan-gui-anh-bao-gia-nhom-kinh.html
 https://cua-nhom-kinh-mien-bac.netlify.app/kich-thuoc-cua-nhom-kinh.html
 https://cua-nhom-kinh-mien-bac.netlify.app/kinh-an-toan-hai-lop.html
 https://cua-nhom-kinh-mien-bac.netlify.app/kinh-hop-cach-am-cach-nhiet.html
 https://cua-nhom-kinh-mien-bac.netlify.app/kinh-nghiem-chon-cua-nhom-kinh.html
 https://cua-nhom-kinh-mien-bac.netlify.app/lap-dat-cua-cuon-ha-noi.html
 https://cua-nhom-kinh-mien-bac.netlify.app/lap-dat-cua-luoi-chong-muoi-ha-noi.html
+https://cua-nhom-kinh-mien-bac.netlify.app/lien-he-khao-sat-nhom-kinh.html
 https://cua-nhom-kinh-mien-bac.netlify.app/mai-kinh-cuong-luc.html
 https://cua-nhom-kinh-mien-bac.netlify.app/mau-cua-nhom-kinh-dep.html
 https://cua-nhom-kinh-mien-bac.netlify.app/phu-kien-cua-nhom-kinh.html
