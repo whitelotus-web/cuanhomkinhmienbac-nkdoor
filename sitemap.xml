@@ -118,7 +118,7 @@
     <loc>https://cua-nhom-kinh-mien-bac.netlify.app/cua-lua-nhom-xingfa-he-93.html</loc>
     <lastmod>2026-07-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://cua-nhom-kinh-mien-bac.netlify.app/cua-luoi-chong-muoi.html</loc>
@@ -202,7 +202,7 @@
     <loc>https://cua-nhom-kinh-mien-bac.netlify.app/cua-nhom-xingfa-he-55.html</loc>
     <lastmod>2026-07-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://cua-nhom-kinh-mien-bac.netlify.app/cua-so-nhom-kinh.html</loc>
@@ -262,7 +262,7 @@
     <loc>https://cua-nhom-kinh-mien-bac.netlify.app/kinh-cuong-luc-10mm-12mm.html</loc>
     <lastmod>2026-07-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://cua-nhom-kinh-mien-bac.netlify.app/kinh-hop-cach-am-cach-nhiet.html</loc>
@@ -316,7 +316,7 @@
     <loc>https://cua-nhom-kinh-mien-bac.netlify.app/phu-kien-kinh-cuong-luc.html</loc>
     <lastmod>2026-07-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://cua-nhom-kinh-mien-bac.netlify.app/quy-trinh-thi-cong-cua.html</loc>
@@ -383,6 +383,18 @@
     <lastmod>2026-07-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://cua-nhom-kinh-mien-bac.netlify.app/thi-cong-nhom-kinh-bac-tu-liem.html</loc>
+    <lastmod>2026-07-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://cua-nhom-kinh-mien-bac.netlify.app/thi-cong-nhom-kinh-cau-giay.html</loc>
+    <lastmod>2026-07-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://cua-nhom-kinh-mien-bac.netlify.app/thi-cong-nhom-kinh-dong-anh.html</loc>
@@ -475,6 +487,12 @@
     <priority>0.85</priority>
   </url>
   <url>
+    <loc>https://cua-nhom-kinh-mien-bac.netlify.app/thi-cong-nhom-kinh-nam-tu-liem.html</loc>
+    <lastmod>2026-07-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://cua-nhom-kinh-mien-bac.netlify.app/thi-cong-nhom-kinh-ninh-binh.html</loc>
     <lastmod>2026-07-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -482,6 +500,12 @@
   </url>
   <url>
     <loc>https://cua-nhom-kinh-mien-bac.netlify.app/thi-cong-nhom-kinh-phu-ly.html</loc>
+    <lastmod>2026-07-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://cua-nhom-kinh-mien-bac.netlify.app/thi-cong-nhom-kinh-tay-ho.html</loc>
     <lastmod>2026-07-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>

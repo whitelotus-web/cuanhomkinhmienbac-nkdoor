@@ -62,6 +62,8 @@ https://cua-nhom-kinh-mien-bac.netlify.app/thay-kinh-cuong-luc-vo.html
 https://cua-nhom-kinh-mien-bac.netlify.app/thi-cong-cua-thep-ha-noi.html
 https://cua-nhom-kinh-mien-bac.netlify.app/thi-cong-kinh-cuong-luc-ha-noi.html
 https://cua-nhom-kinh-mien-bac.netlify.app/thi-cong-nhom-kinh-bac-ninh.html
+https://cua-nhom-kinh-mien-bac.netlify.app/thi-cong-nhom-kinh-bac-tu-liem.html
+https://cua-nhom-kinh-mien-bac.netlify.app/thi-cong-nhom-kinh-cau-giay.html
 https://cua-nhom-kinh-mien-bac.netlify.app/thi-cong-nhom-kinh-dong-anh.html
 https://cua-nhom-kinh-mien-bac.netlify.app/thi-cong-nhom-kinh-duy-tien-ha-nam.html
 https://cua-nhom-kinh-mien-bac.netlify.app/thi-cong-nhom-kinh-ecopark.html
@@ -77,8 +79,10 @@ https://cua-nhom-kinh-mien-bac.netlify.app/thi-cong-nhom-kinh-kim-bang-ha-nam.ht
 https://cua-nhom-kinh-mien-bac.netlify.app/thi-cong-nhom-kinh-long-bien.html
 https://cua-nhom-kinh-mien-bac.netlify.app/thi-cong-nhom-kinh-mien-bac.html
 https://cua-nhom-kinh-mien-bac.netlify.app/thi-cong-nhom-kinh-nam-dinh.html
+https://cua-nhom-kinh-mien-bac.netlify.app/thi-cong-nhom-kinh-nam-tu-liem.html
 https://cua-nhom-kinh-mien-bac.netlify.app/thi-cong-nhom-kinh-ninh-binh.html
 https://cua-nhom-kinh-mien-bac.netlify.app/thi-cong-nhom-kinh-phu-ly.html
+https://cua-nhom-kinh-mien-bac.netlify.app/thi-cong-nhom-kinh-tay-ho.html
 https://cua-nhom-kinh-mien-bac.netlify.app/thi-cong-nhom-kinh-thai-binh.html
 https://cua-nhom-kinh-mien-bac.netlify.app/thi-cong-nhom-kinh-thanh-tri.html
 https://cua-nhom-kinh-mien-bac.netlify.app/thi-cong-nhom-kinh-van-giang-hung-yen.html
