@@ -4,10 +4,22 @@ import path from "node:path";
 const root = process.cwd();
 const target = path.join(root, "dist", "cloudflare-primary");
 const sourceBase = "https://cua-nhom-kinh-mien-bac.netlify.app";
-const cloudflareBase = "https://cuanhomkinhmienbac.pages.dev";
+const pagesBase = "https://cuanhomkinhmienbac.pages.dev";
+const primaryBase = "https://nhomkinhmienbac.io.vn";
 const textExtensions = new Set([".html", ".xml", ".txt", ".css", ".js", ".webmanifest"]);
 const rootFileExtensions = new Set([".html", ".css", ".js", ".xml", ".txt", ".webmanifest", ".toml"]);
 const imageExtensions = new Set([".jpg", ".jpeg", ".png", ".webp", ".gif", ".svg", ".ico"]);
+
+function escapeRegExp(value) {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function normalizePublicUrls(content) {
+  const primaryHtmlUrl = new RegExp(`${escapeRegExp(primaryBase)}/([^"'<\\s?#]+)\\.html`, "g");
+  content = content.replace(primaryHtmlUrl, `${primaryBase}/$1`);
+  content = content.replace(/href="index\.html((?:[?#][^"]*)?)"/g, 'href="/$1"');
+  return content.replace(/href="([a-z0-9][a-z0-9-]*)\.html((?:[?#][^"]*)?)"/gi, 'href="$1$2"');
+}
 
 function resetDir(dir) {
   if (fs.existsSync(dir)) fs.rmSync(dir, { recursive: true, force: true });
@@ -19,7 +31,9 @@ function copyFileWithRewrite(src, dest) {
   const ext = path.extname(src).toLowerCase();
   if (textExtensions.has(ext) || path.basename(src) === "robots.txt") {
     let content = fs.readFileSync(src, "utf8");
-    content = content.replaceAll(sourceBase, cloudflareBase);
+    content = content.replaceAll(sourceBase, primaryBase);
+    content = content.replaceAll(pagesBase, primaryBase);
+    content = normalizePublicUrls(content);
     content = content.replaceAll(
       '<meta name="robots" content="noindex, nofollow">',
       '<meta name="robots" content="index, follow">'
@@ -90,10 +104,10 @@ function writeCloudflareRobots() {
   const robots = `User-agent: *
 Allow: /
 
-Sitemap: ${cloudflareBase}/sitemap-index.xml
-Sitemap: ${cloudflareBase}/sitemap.xml
-Sitemap: ${cloudflareBase}/sitemap.txt
-Sitemap: ${cloudflareBase}/image-sitemap.xml
+Sitemap: ${primaryBase}/sitemap-index.xml
+Sitemap: ${primaryBase}/sitemap.xml
+Sitemap: ${primaryBase}/sitemap.txt
+Sitemap: ${primaryBase}/image-sitemap.xml
 `;
   fs.writeFileSync(path.join(target, "robots.txt"), robots, "utf8");
 }
@@ -105,17 +119,22 @@ function auditBuild() {
   const htmlFiles = fs.readdirSync(target).filter((file) => file.endsWith(".html"));
   const urlCount = (sitemap.match(/<loc>/g) || []).length;
   if (urlCount < 1) throw new Error("Cloudflare primary build sitemap has no URLs.");
-  if (sitemap.includes(sourceBase) || index.includes(sourceBase)) {
-    throw new Error("Cloudflare primary build still contains Netlify URLs.");
+  if (sitemap.includes(sourceBase) || index.includes(sourceBase) || sitemap.includes(pagesBase) || index.includes(pagesBase)) {
+    throw new Error("Cloudflare primary build still contains a legacy production URL.");
   }
-  if (!sitemap.includes(cloudflareBase) || !index.includes(cloudflareBase)) {
-    throw new Error("Cloudflare primary build is missing Cloudflare canonical URLs.");
+  if (!sitemap.includes(primaryBase) || !index.includes(primaryBase)) {
+    throw new Error("Cloudflare primary build is missing custom-domain canonical URLs.");
   }
   if (!robots.includes("Allow: /") || robots.includes("Disallow: /")) {
     throw new Error("Cloudflare primary robots should allow crawling.");
   }
   for (const file of htmlFiles) {
     const content = fs.readFileSync(path.join(target, file), "utf8");
+    const expectedCanonical = file === "index.html" ? `${primaryBase}/` : `${primaryBase}/${file.slice(0, -5)}`;
+    const canonical = content.match(/<link rel="canonical" href="([^"]+)"/)?.[1] || "";
+    if (canonical !== expectedCanonical) {
+      throw new Error(`${file} has an unexpected canonical URL: ${canonical}`);
+    }
     if (!content.includes('content="index, follow"')) {
       throw new Error(`${file} is missing index, follow robots meta.`);
     }
@@ -129,4 +148,4 @@ copyImages();
 writeCloudflareHeaders();
 writeCloudflareRobots();
 const urlCount = auditBuild();
-console.log(`Built ${target} as indexable Cloudflare primary with ${urlCount} Cloudflare canonical URLs.`);
+console.log(`Built ${target} as indexable custom-domain primary with ${urlCount} canonical URLs.`);
